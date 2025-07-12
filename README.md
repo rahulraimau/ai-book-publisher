@@ -63,7 +63,11 @@ All rewrites are versioned in **ChromaDB**. You can perform **semantic search** 
 Uses Google’s `gTTS` to read AI-generated text aloud and save as `.mp3`.
 
 ---
-
+Metric,Description,Range,Ideal Range,Interpretation
+Semantic Similarity,Cosine similarity between original and spun embeddings,0.0 – 1.0,0.6 – 0.85,Closer to 1.0 = semantically similar
+Novelty,1 - semantic similarity,0.0 – 1.0,0.4 – 0.6,Closer to 1.0 = more novel
+Jaccard Diversity,Word-level difference using token overlap,0.0 – 1.0,0.3 – 0.7,Higher value = more lexical diversity
+Final Reward Score,Combined reward: 0.4*sim + 0.4*novelty + 0.2*jaccard_diversity,0.0 – 1.0,0.6 – 0.9,Balanced indicator of rewrite quality
 ## 🖥️ Streamlit Web App (Optional)
 
 To run a visual UI for the entire pipeline:
