@@ -17,7 +17,7 @@ def fetch_wikisource_chapter(url):
     return "\n\n".join([p.get_text() for p in paragraphs if len(p.get_text()) > 50])
 
 def ai_writer(text):
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("models/gemini-1.5-flash")  # Fully qualified name!
     prompt = f"Paraphrase and creatively rewrite the following chapter text:\n\n{text[:2000]}"
     response = model.generate_content(prompt)
     return response.text.strip()
