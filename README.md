@@ -6,7 +6,7 @@ An **AI-powered publishing assistant** that helps transform classic texts into r
 
 ## 🎮 Demo Video
 
-👉 [Watch the full demo on Loom](https://www.loom.com/share/your-loom-video-id)
+👉 [Watch the full demo on Loom]((https://www.loom.com/share/7402b049ffe84be191f2b0c8bacbb3d4))
 
 ---
 
