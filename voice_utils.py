@@ -1,7 +1,10 @@
-import pyttsx3
+from gtts import gTTS
+import tempfile
+import os
 
-def speak_text(text):
-    engine = pyttsx3.init()
-    engine.setProperty('rate', 170)
-    engine.say(text)
-    engine.runAndWait()
+def speak(text):
+    """Convert text to speech and return temporary mp3 path"""
+    tts = gTTS(text)
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+    tts.save(temp_file.name)
+    return temp_file.name
