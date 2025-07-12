@@ -15,7 +15,7 @@ An **AI-powered publishing assistant** that helps transform classic texts into r
 ### 🔍 1. Scraping from Wikisource
 
 Fetches chapter content directly from public-domain books hosted on [Wikisource](https://en.wikisource.org/). Optionally captures screenshots with Playwright.
-
+https://www.loom.com/share/7402b049ffe84be191f2b0c8bacbb3d4?sid=5a19c230-7ee1-4867-8e13-a4831cdba5fa
 > Example URL:
 
 ```
