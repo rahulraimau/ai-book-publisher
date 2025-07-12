@@ -8,3 +8,11 @@ playwright
 sentence-transformers
 google-generativeai
 python-dotenv
+streamlit
+gtts
+requests
+nltk
+beautifulsoup4
+sentence-transformers
+google-generativeai
+chromadb
