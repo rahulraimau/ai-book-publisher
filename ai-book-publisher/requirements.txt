@@ -1,0 +1,10 @@
+streamlit
+bs4
+requests
+nltk
+pyttsx3
+chromadb
+playwright
+sentence-transformers
+google-generativeai
+python-dotenv
